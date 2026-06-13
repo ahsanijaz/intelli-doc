@@ -1,0 +1,409 @@
+[
+  {
+    "entity": {
+      "id": "C1001",
+      "segment": "CIB",
+      "legal_name": "Meridian Holdings Pte Ltd",
+      "jurisdiction": "SG",
+      "group": "G-MERIDIAN",
+      "risk": "high"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1001/identity/2022/d580340.txt",
+        "issue_date": "2022-11-28",
+        "expiry_date": "2027-05-26"
+      },
+      {
+        "doc_class": "incorporation",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1001/incorporation/2009/d983989.txt",
+        "issue_date": "2009-03-05",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "ownership_control",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1001/ownership_control/2025/d532853.txt",
+        "issue_date": "2025-11-24",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "financials",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1001/financials/2025/d827207.txt",
+        "issue_date": "2025-09-26",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [],
+    "extras_held": [
+      "facility_docs",
+      "correspondence"
+    ],
+    "status": "green"
+  },
+  {
+    "entity": {
+      "id": "C1002",
+      "segment": "CIB",
+      "legal_name": "Meridian Trading (Asia) Pte Ltd",
+      "jurisdiction": "SG",
+      "group": "G-MERIDIAN",
+      "risk": "high"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1002/identity/2019/d323658.txt",
+        "issue_date": "2019-12-29",
+        "expiry_date": "2030-04-05"
+      },
+      {
+        "doc_class": "incorporation",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1002/incorporation/2016/d553740.txt",
+        "issue_date": "2016-07-08",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "ownership_control",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1002/ownership_control/2026/d560523.txt",
+        "issue_date": "2026-01-16",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "financials",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1002/financials/2025/d1735.txt",
+        "issue_date": "2025-04-08",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [],
+    "extras_held": [
+      "facility_docs",
+      "correspondence"
+    ],
+    "status": "green"
+  },
+  {
+    "entity": {
+      "id": "C1003",
+      "segment": "CIB",
+      "legal_name": "Meridian Infra India Pvt Ltd",
+      "jurisdiction": "IN",
+      "group": "G-MERIDIAN",
+      "risk": "medium"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1003/identity/2021/d621939.txt",
+        "issue_date": "2021-08-09",
+        "expiry_date": "2027-02-04"
+      },
+      {
+        "doc_class": "incorporation",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1003/incorporation/2010/d325334.txt",
+        "issue_date": "2010-11-20",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "ownership_control",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1003/ownership_control/2024/d251688.txt",
+        "issue_date": "2024-12-13",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "financials",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1003/financials/2025/d33846.txt",
+        "issue_date": "2025-10-29",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [],
+    "extras_held": [
+      "facility_docs",
+      "correspondence"
+    ],
+    "status": "green"
+  },
+  {
+    "entity": {
+      "id": "C1004",
+      "segment": "CIB",
+      "legal_name": "Eastgate Commodities Pte Ltd",
+      "jurisdiction": "SG",
+      "group": "G-EASTGATE",
+      "risk": "medium"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1004/identity/2020/d296144.txt",
+        "issue_date": "2020-05-21",
+        "expiry_date": "2027-12-26"
+      },
+      {
+        "doc_class": "incorporation",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1004/incorporation/2015/d622614.txt",
+        "issue_date": "2015-03-29",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "ownership_control",
+        "state": "stale",
+        "note": "1426d old (max 730)",
+        "doc": "poc-sg-clean/EBSG/CIB/C1004/ownership_control/2022/d768916.txt",
+        "issue_date": "2022-07-17",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "financials",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1004/financials/2025/d816809.txt",
+        "issue_date": "2025-06-28",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [
+      "ownership_control"
+    ],
+    "extras_held": [
+      "correspondence",
+      "facility_docs"
+    ],
+    "status": "amber"
+  },
+  {
+    "entity": {
+      "id": "C1005",
+      "segment": "CIB",
+      "legal_name": "Eastgate Shipping Pte Ltd",
+      "jurisdiction": "SG",
+      "group": "G-EASTGATE",
+      "risk": "low"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1005/identity/2019/d623144.txt",
+        "issue_date": "2019-05-02",
+        "expiry_date": "2027-05-09"
+      },
+      {
+        "doc_class": "incorporation",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1005/incorporation/2019/d61929.txt",
+        "issue_date": "2019-09-24",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "ownership_control",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/CIB/C1005/ownership_control/2025/d616842.txt",
+        "issue_date": "2025-05-26",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [],
+    "extras_held": [
+      "facility_docs",
+      "correspondence"
+    ],
+    "status": "green"
+  },
+  {
+    "entity": {
+      "id": "C1006",
+      "segment": "CIB",
+      "legal_name": "Sundaram Textile Mills Pvt Ltd",
+      "jurisdiction": "IN",
+      "group": "G-SUNDARAM",
+      "risk": "medium"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1006/identity/2018/d33072.txt",
+        "issue_date": "2018-07-09",
+        "expiry_date": "2030-01-22"
+      },
+      {
+        "doc_class": "incorporation",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1006/incorporation/2012/d298192.txt",
+        "issue_date": "2012-03-01",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "ownership_control",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/CIB/C1006/ownership_control/2025/d229217.txt",
+        "issue_date": "2025-12-07",
+        "expiry_date": null
+      },
+      {
+        "doc_class": "financials",
+        "state": "stale",
+        "note": "1048d old (max 540)",
+        "doc": "poc-in-clean/EBIN/CIB/C1006/financials/2023/d276023.txt",
+        "issue_date": "2023-07-30",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [
+      "financials"
+    ],
+    "extras_held": [
+      "facility_docs",
+      "correspondence"
+    ],
+    "status": "amber"
+  },
+  {
+    "entity": {
+      "id": "W2001",
+      "segment": "WRB",
+      "legal_name": "Tan Wei Ming",
+      "jurisdiction": "SG",
+      "group": "",
+      "risk": "low"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-sg-clean/EBSG/WRB/W2001/identity/2022/d404197.txt",
+        "issue_date": "2022-04-20",
+        "expiry_date": "2029-12-07"
+      }
+    ],
+    "gaps": [],
+    "extras_held": [
+      "address_proof"
+    ],
+    "status": "green"
+  },
+  {
+    "entity": {
+      "id": "W2002",
+      "segment": "WRB",
+      "legal_name": "Priya Raghunathan",
+      "jurisdiction": "IN",
+      "group": "",
+      "risk": "medium"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "expiring",
+        "note": "35d left",
+        "doc": "poc-in-clean/EBIN/WRB/W2002/identity/2021/d631009.txt",
+        "issue_date": "2021-03-12",
+        "expiry_date": "2026-07-17"
+      },
+      {
+        "doc_class": "address_proof",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/WRB/W2002/address_proof/2024/d982108.txt",
+        "issue_date": "2024-09-28",
+        "expiry_date": null
+      }
+    ],
+    "gaps": [
+      "identity"
+    ],
+    "extras_held": [],
+    "status": "amber"
+  },
+  {
+    "entity": {
+      "id": "W2003",
+      "segment": "WRB",
+      "legal_name": "Daniel Koh Jun Jie",
+      "jurisdiction": "SG",
+      "group": "",
+      "risk": "high"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "expired",
+        "note": "lapsed 348d ago",
+        "doc": "poc-sg-clean/EBSG/WRB/W2003/identity/2017/d427055.txt",
+        "issue_date": "2017-08-26",
+        "expiry_date": "2025-06-29"
+      },
+      {
+        "doc_class": "address_proof",
+        "state": "missing"
+      }
+    ],
+    "gaps": [
+      "identity",
+      "address_proof"
+    ],
+    "extras_held": [],
+    "status": "red"
+  },
+  {
+    "entity": {
+      "id": "W2004",
+      "segment": "WRB",
+      "legal_name": "Aarav Mehta",
+      "jurisdiction": "IN",
+      "group": "",
+      "risk": "low"
+    },
+    "items": [
+      {
+        "doc_class": "identity",
+        "state": "valid",
+        "note": "",
+        "doc": "poc-in-clean/EBIN/WRB/W2004/identity/2020/d303708.txt",
+        "issue_date": "2020-08-29",
+        "expiry_date": "2028-08-16"
+      }
+    ],
+    "gaps": [],
+    "extras_held": [],
+    "status": "green"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "task_id": "T-001",
+    "trigger": "validity_monitor",
+    "entity_id": "C1004",
+    "entity": "Eastgate Commodities Pte Ltd",
+    "action": "assemble_micro_refresh_pack",
+    "scope": [
+      "ownership_control"
+    ],
+    "human_gate": "RM approves outreach; analyst signs off sufficiency",
+    "outreach_draft": "Subject: Document refresh \u2014 Eastgate Commodities Pte Ltd\n\nDear client, as part of our ongoing review we require updated copies of: ownership_control. All other records we hold remain current \u2014 no further action is needed on those. [auto-drafted; pending RM approval]"
+  },
+  {
+    "task_id": "T-002",
+    "trigger": "validity_monitor",
+    "entity_id": "C1006",
+    "entity": "Sundaram Textile Mills Pvt Ltd",
+    "action": "assemble_micro_refresh_pack",
+    "scope": [
+      "financials"
+    ],
+    "human_gate": "RM approves outreach; analyst signs off sufficiency",
+    "outreach_draft": "Subject: Document refresh \u2014 Sundaram Textile Mills Pvt Ltd\n\nDear client, as part of our ongoing review we require updated copies of: financials. All other records we hold remain current \u2014 no further action is needed on those. [auto-drafted; pending RM approval]"
+  },
+  {
+    "task_id": "T-003",
+    "trigger": "validity_monitor",
+    "entity_id": "W2002",
+    "entity": "Priya Raghunathan",
+    "action": "assemble_micro_refresh_pack",
+    "scope": [
+      "identity"
+    ],
+    "human_gate": "RM approves outreach; analyst signs off sufficiency",
+    "outreach_draft": "Subject: Document refresh \u2014 Priya Raghunathan\n\nDear client, as part of our ongoing review we require updated copies of: identity. All other records we hold remain current \u2014 no further action is needed on those. [auto-drafted; pending RM approval]"
+  },
+  {
+    "task_id": "T-004",
+    "trigger": "validity_monitor",
+    "entity_id": "W2003",
+    "entity": "Daniel Koh Jun Jie",
+    "action": "assemble_micro_refresh_pack",
+    "scope": [
+      "identity",
+      "address_proof"
+    ],
+    "human_gate": "RM approves outreach; analyst signs off sufficiency",
+    "outreach_draft": "Subject: Document refresh \u2014 Daniel Koh Jun Jie\n\nDear client, as part of our ongoing review we require updated copies of: identity, address_proof. All other records we hold remain current \u2014 no further action is needed on those. [auto-drafted; pending RM approval]"
+  },
+  {
+    "task_id": "T-005",
+    "trigger": "registry_ownership_change",
+    "event": {
+      "event_id": "EV-001",
+      "type": "registry_ownership_change",
+      "entity_id": "C1001",
+      "detail": "ACRA filing: change in shareholders of Meridian Holdings Pte Ltd",
+      "date": "2026-06-09"
+    },
+    "entity_id": "C1001",
+    "entity": "Meridian Holdings Pte Ltd",
+    "action": "micro_refresh",
+    "scope": [
+      "ownership_control"
+    ],
+    "why": "ownership document on file predates the registry change; only UBO declaration needs refresh",
+    "human_gate": "disposition remains with analyst"
+  },
+  {
+    "task_id": "T-006",
+    "trigger": "adverse_media",
+    "event": {
+      "event_id": "EV-002",
+      "type": "adverse_media",
+      "entity_id": "C1006",
+      "detail": "Regional news: environmental penalty reported against Sundaram Textile Mills",
+      "date": "2026-06-10"
+    },
+    "entity_id": "C1006",
+    "entity": "Sundaram Textile Mills Pvt Ltd",
+    "action": "escalate_full_review",
+    "scope": [
+      "full_file"
+    ],
+    "why": "adverse media on a non-low-risk client exceeds micro-refresh threshold",
+    "human_gate": "disposition remains with analyst"
+  }
+]

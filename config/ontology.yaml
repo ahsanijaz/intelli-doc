@@ -1,0 +1,40 @@
+# POC ontology — drives layout, retention, requirements matrix, access
+jurisdictions:
+  SG: { legal_entity: EBSG, residency: in_country_preferred }
+  IN: { legal_entity: EBIN, residency: in_country_mandatory }
+
+buckets:
+  raw: "poc-{jur}-raw"
+  clean: "poc-{jur}-clean"
+
+key_schema:
+  CIB: "{legal_entity}/CIB/{entity_id}/{doc_class}/{yyyy}/{doc_id}.txt"
+  WRB: "{legal_entity}/WRB/{entity_id}/{doc_class}/{yyyy}/{doc_id}.txt"
+  quarantine: "{legal_entity}/_quarantine/{doc_id}.txt"
+
+doc_classes:
+  identity:          { validity_tracked: true,  retention_years: 7 }
+  address_proof:     { validity_tracked: true,  retention_years: 7 }
+  incorporation:     { validity_tracked: false, retention_years: 7 }
+  ownership_control: { validity_tracked: false, retention_years: 7, max_age_days: 730 }
+  financials:        { validity_tracked: false, retention_years: 10, max_age_days: 540 }
+  facility_docs:     { validity_tracked: false, retention_years: 12 }
+  correspondence:    { validity_tracked: false, retention_years: 7 }
+
+# Requirements matrix: policy as config (what a valid client file must contain)
+requirements:
+  CIB:
+    high:   [identity, incorporation, ownership_control, financials]
+    medium: [identity, incorporation, ownership_control, financials]
+    low:    [identity, incorporation, ownership_control]
+  WRB:
+    high:   [identity, address_proof]
+    medium: [identity, address_proof]
+    low:    [identity]
+
+entity_resolution:
+  auto_accept: 0.93
+  quarantine_below: 0.72
+
+pkyc:
+  expiry_horizon_days: 90   # raise micro-refresh before a doc lapses

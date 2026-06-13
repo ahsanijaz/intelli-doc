@@ -1,0 +1,11 @@
+id,segment,legal_name,jurisdiction,group,risk
+C1001,CIB,Meridian Holdings Pte Ltd,SG,G-MERIDIAN,high
+C1002,CIB,Meridian Trading (Asia) Pte Ltd,SG,G-MERIDIAN,high
+C1003,CIB,Meridian Infra India Pvt Ltd,IN,G-MERIDIAN,medium
+C1004,CIB,Eastgate Commodities Pte Ltd,SG,G-EASTGATE,medium
+C1005,CIB,Eastgate Shipping Pte Ltd,SG,G-EASTGATE,low
+C1006,CIB,Sundaram Textile Mills Pvt Ltd,IN,G-SUNDARAM,medium
+W2001,WRB,Tan Wei Ming,SG,,low
+W2002,WRB,Priya Raghunathan,IN,,medium
+W2003,WRB,Daniel Koh Jun Jie,SG,,high
+W2004,WRB,Aarav Mehta,IN,,low
